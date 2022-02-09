@@ -91,7 +91,7 @@ export default function FlipCoin() {
       </label>
 
       <label className={styles.formLabel}>
-        <span className={styles.formLabelText}>Guess* </span>
+        <span className={styles.formLabelText}>Guess (0/1)*</span>
         <input
           autoComplete="off"
           className={styles.formInput}
