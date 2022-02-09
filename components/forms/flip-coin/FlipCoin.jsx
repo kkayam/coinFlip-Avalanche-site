@@ -116,6 +116,8 @@ export default function FlipCoin() {
       <button type="button" className={styles.formSubmit} onClick={mintMe}>
         Give me 100 Koray Coins!
       </button>
+
+      <p>Contract address: 0x03d176737F2f40868c400Db1028636F6E45027A8</p>
       
     </form>
   )
