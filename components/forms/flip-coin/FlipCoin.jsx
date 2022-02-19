@@ -2,6 +2,15 @@ import { useState } from 'react'
 
 import { useCoinflipContext } from '../../../context/coinflip/coinflipContext'
 
+import {
+  Window,
+  WindowContent,
+  WindowHeader,
+  Button,
+  Toolbar,
+  Panel
+} from 'react95';
+
 import styles from './FlipCoin.module.scss'
 
 export default function FlipCoin() {
