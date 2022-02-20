@@ -1,13 +1,14 @@
 @import '../../styles/all';
 
 .layout {
-  background: $c-dark-text;
+  // background: $c-dark-text;
+  color:black;
   height: 100%;
   max-width: 700px;
   margin: auto;
 
   &Main {
-    min-height: 70vh;
+    min-height: 50vh;
     padding: $space-md $padding-sm;
   }
 

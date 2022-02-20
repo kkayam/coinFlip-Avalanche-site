@@ -10,7 +10,8 @@ import {
   Toolbar,
   Panel,
   TextField,
-  Select
+  Select,
+  FieldSet
 } from 'react95';
 
 const options = [
@@ -147,46 +148,28 @@ export default function FlipCoin() {
   }
 
   return (
-      <Wrapper>
-  <Window className='window'>
-      <WindowHeader className='window-header'>
-        <span>DCoinflip.exe</span>
-        <Button>
-        X
-        </Button>
-      </WindowHeader>
-      <Toolbar>
-        {/* <Button variant='menu' size='sm'>
-          File
-        </Button>
-        <Button variant='menu' size='sm'>
-          Edit
-        </Button>
-        <Button variant='menu' size='sm' disabled>
-          Save
-        </Button> */}
-      </Toolbar>
-      <WindowContent>
+    <>
         Bet
         <TextField fullWidth />
         <br/>
         Guess
+
         <Select
         defaultValue={1}
         options={options}
         menuMaxHeight={160}
         width={'100%'}
       />
-        <br/><br/>
+
+        <br/>
       <Button size='sm'>
           Flip coin!
         </Button>
-        <br/><br/>
+
+        <br/>
         <Button size='sm'>
           Give me 100 Koray Coins!
         </Button>
-      </WindowContent>
-    </Window>
-    </Wrapper>
+        </>
   )
 }
